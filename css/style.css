@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+input {
+    padding: 10px;
+    margin: 10px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+#calculateButton {
+  background-color: green;
+  color: white;
+}
+#resetButton {
+  background-color: red;
+  color: white;
+}
+#resultArea, #resultPerimeter, #manualCalculation {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+}
