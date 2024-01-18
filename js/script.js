@@ -20,7 +20,5 @@ function calculate() {
   function resetForm() {
     // Reset nilai input, hasil perhitungan, dan perhitungan manual
     document.getElementById("sideLength").value = "";
-    document.getElementById("resultArea").innerHTML = "";
-    document.getElementById("resultPerimeter").innerHTML = "";
     document.getElementById("manualCalculation").innerHTML = "";
   }
