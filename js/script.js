@@ -12,9 +12,11 @@ function calculate() {
     var manualCalculationDiv = document.getElementById("manualCalculation");
     manualCalculationDiv.innerHTML = "<strong>Perhitungan Manual:</strong>";
     manualCalculationDiv.innerHTML += "<p>Luas = Panjang Sisi x Panjang Sisi</p>";
-    manualCalculationDiv.innerHTML += "<p>Luas = " + sideLength + " x " + sideLength + " = " + area + "</p>";
+    manualCalculationDiv.innerHTML += "<p>Luas = " + sideLength + " x " + sideLength + "</p>";
+    manualCalculationDiv.innerHTML += "<p>Luas = " + area + "</p>";
     manualCalculationDiv.innerHTML += "<p>Keliling = 4 x Panjang Sisi</p>";
     manualCalculationDiv.innerHTML += "<p>Keliling = 4 x " + sideLength + " = " + perimeter + "</p>";
+    manualCalculationDiv.innerHTML += "<p>Keliling = "  + perimeter + "</p>";
   }
   
   function resetForm() {

@@ -23,7 +23,7 @@ button {
   background-color: red;
   color: white;
 }
-#resultArea, #resultPerimeter, #manualCalculation {
+#manualCalculation {
     margin-top: 20px;
     font-size: 18px;
     text-align: left;
